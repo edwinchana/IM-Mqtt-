@@ -1,0 +1,35 @@
+{
+  "name": "mqtt",
+  "version": "0.1.0",
+  "description": "pm2 start runIM.json --env production",
+  "main": "Mosca.js",
+  "dependencies": {
+    "async": "^2.0.0",
+    "aws-sdk": "^2.4.2",
+    "axios": "^0.12.0",
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "es6-promisify": "^4.1.0",
+    "kue": "^0.11.1",
+    "moment": "^2.13.0",
+    "mosca": "^2.0.2",
+    "mqtt": "^1.10.0",
+    "promise-redis": "^0.0.5",
+    "redis": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwinchana/IM-Mqtt-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edwinchana/IM-Mqtt-/issues"
+  },
+  "homepage": "https://github.com/edwinchana/IM-Mqtt-#readme"
+}

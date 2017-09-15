@@ -1,0 +1,180 @@
+{
+  "apps" : [
+    {
+      "name"        : "IM0",
+      "script"      : "Mosca.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "IM1",
+      "script"      : "Mosca.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "seperateOnAndOff",
+      "script"      : "seperateProcessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "storeOffMsgJob",
+      "script"      : "storeOffMsgProcessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "storeOnMsgJob",
+      "script"      : "storeOnMsgProcessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "connectInfoJob",
+      "script"      : "connectInfoProcessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "publishSNS",
+      "script"      : "publishSNSprocessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "subscribed",
+      "script"      : "subscribedProcessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "offToOnMsg",
+      "script"      : "offToOnMsgProcessJob.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "recieveARN",
+      "script"      : "recieveARN.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"        : "emailSystem",
+      "script"      : "../emailSystem/recieveFileAPI.js",
+      "args"        : "",
+      "watch"       : false,
+      "node_args"   : "",
+      "merge_logs"  : true,
+      "cwd"         : "",
+      "exec_mode"  : "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    }
+  ]
+}
