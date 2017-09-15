@@ -5,3 +5,4 @@ pm2 start runIM.json --env production
 3. seperate mutiple process to do each job (subscribed, publish, store message, push notification),
     use redis "kue" simulate message queue
 4. manage process with PM2
+5. support offline feature 

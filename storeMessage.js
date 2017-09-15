@@ -1,12 +1,6 @@
 var co = require('co');
 var controllConsole = require('./controllConsole');
 var AWS = require('aws-sdk');
-AWS.config.update({
-    region : 'ap-northeast-1',
-    endpoint : 'https://dynamodb.ap-northeast-1.amazonaws.com',
-    accessKeyId : 'AKIAJPBR5B5DNQLIV72A',
-    secretAccessKey : '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'
-})
 AWS.config.setPromisesDependency(require('bluebird'));
 var docClient = new AWS.DynamoDB.DocumentClient();
 var redis  = require("promise-redis")();
